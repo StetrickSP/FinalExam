@@ -1,0 +1,34 @@
+.vien{
+    background-color: black;
+   margin-top: 100px;
+   padding-bottom: 100px;
+  margin-inline: 550px;
+  border-radius:10px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: whitesmoke;
+    
+}
+input{
+    display: flex;
+    justify-self: baseline;
+    border:10px solid transparent;
+    border-radius:10px;
+    padding:5px;
+    
+}
+text{
+    font-size: 200px;
+    
+}
+body{
+    background-color: gold;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
