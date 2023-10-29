@@ -378,3 +378,9 @@ a
     flex: none;
     padding: 10px;
 }
+#goal .goal-text .contents .content h3
+{
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #aa6c39;
+}
