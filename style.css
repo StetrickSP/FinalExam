@@ -8,6 +8,50 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
+a
+{
+    text-decoration: none;
+}
+.text-secondary
+{
+    color: green;
+}
+.text-center
+{
+    text-align: center;
+}
+.bg-light
+{
+    background: #FFFFF4;
+}
+.bg-secondary
+{
+    background: green;
+}
+.py-0{padding: 16px 0;}
+.py-1{padding: 24px 0;}
+.py-2{padding: 32px 0;}
+.py-3{padding: 48px 0;}
+
+.p-0{padding: 16px;}
+.p-1{padding: 24px;}
+.p-2{padding: 32px;}
+.p-3{padding: 48px;}
+.p-4{padding: 1px;}
+
+.wrapper
+{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+/* Showcase area Styling */
 .showcase
 {
     width: 100%;
@@ -17,7 +61,7 @@
     ,url('./images/background.jpg') no-repeat center center/cover;
 }
 /* Utility Classes */
-.btn
+.btn   /*All btn class styling*/
 {
     display: inline-block;
     padding: 15px 25px;
@@ -30,6 +74,7 @@
     font-weight: bold;
     overflow: hidden;
     transition: all 0.5s ease;
+    /* outline-style: solid; */
 }
 
 /* Top Navbar */
@@ -42,7 +87,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: gold;
-    top: 0;
+    /* position: sticky;  */   /*Remove comment afterwards*/
+     top: 0;
     left: 0;
 }
 
@@ -94,14 +140,15 @@
 .showcase .navbar-bottom
 {
     width: 100%;
-    background: #aa6b39;
-    padding: 25px 95px;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
     display: flex;
-    position: Fixed;
+    padding: 5px 95px;
+    margin: 0 auto;
     justify-content: space-between;
+    align-items: center;
+    background: #aa6b39;
+    text-align: center;
+    overflow: hidden;
+    position: absolute; /*Change into fixed afterwards*/
 }
 
 .showcase .navbar-bottom .brand-left
@@ -212,4 +259,122 @@
 .showcase .showcase-content .btn:hover /* Hover -> Gold on BTN buttons*/
 {
     color: gold;
+}
+.showcase .showcase-content .btn-left
+{
+    background: linear-gradient(to right, #aa6b39, gold);
+}
+.showcase .showcase-content .btn-right
+{
+    background: linear-gradient(to right, gold, #aa6b39);
+}
+
+/* Services Section Styling */
+#services .items
+{
+    display: flex;
+    padding-bottom: 40px;
+}
+#services .items .item
+{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background: goldenrod;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3), -5px -5px 20px rgba(0,0,0,0.3);
+    transition: all 0.8s ease;
+}
+#services .items .item h3
+{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;  /*font-weight: weight of font, makes words seems thicker*/
+    margin: 5px;
+    transition: all 0.8s ease;
+}
+#services .items .item:hover h3 /* "item:hover h3" will make h3 change when hovering over item */
+{                               /* "item h3:hover" will only make h3 change when hovering over h3 only*/
+    color: goldenrod;
+    transition: all 0.8s ease;
+}
+#services .items .item p
+{
+    line-height: 1.4;
+    color: black;
+}
+#services .items .item i
+{
+    color: black;
+    transition: all 0.8s ease;
+}
+#services .items .item:hover i 
+{
+    color: gold;
+}
+#services .items .item:hover
+{
+    background: whitesmoke;
+    transform: scale(1.05);   /*scale it x1.05 times bigger*/
+    transition: all 0.8s ease;
+}
+
+/* Services Section Bottom */
+#goal
+{
+    display: flex;
+    padding-top: 20px;
+}
+#goal div
+{
+    flex: 1;
+}
+#goal .goal-img
+{
+    display: inline-block;
+    position: relative;
+    width: 600px;
+    height: 415px;
+    overflow: hidden;
+}
+#goal .goal-img img
+{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+#goal .goal-text
+{
+    margin: 0 40px;
+}
+#goal .goal-text a
+{
+    color: black;
+    background: goldenrod;
+    text-decoration: none;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 3px 10px;
+    transition: 0.8s ;
+}
+#goal .goal-text a:hover
+{
+    color: #aa6b39;
+    background: whitesmoke;
+}
+#goal .goal-text h2
+{
+    margin: 20px 0;
+    color: black;
+    font-weight: 1000;
+}
+#goal .goal-text .contents
+{
+    display: flex;
+}
+#goal .goal-text .contents .content
+{
+    flex: none;
+    padding: 10px;
 }
