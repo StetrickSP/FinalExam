@@ -1,0 +1,51 @@
+.mc{
+    position: relative;
+    background: black;
+    width: 100%;
+    padding: 1rem;
+}
+.hw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    padding: 10px 2rem;
+   
+}
+.ui{
+    display: flex;
+    align-items: center;
+    gap: 1;
+}
+.sb{
+    background: goldenrod;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+.sb input{
+    background: gold;
+    padding:10px;
+    outline: none;
+    border: none;
+}
+.sb i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0,5s ease-out;
+}
+.sb i:hover{
+    transform: scale(1.2);
+}
+.ht.span{
+    color: goldenrod;
+}
+h2{
+    color: gold;
+}
+i{
+    color: gold;
+}
