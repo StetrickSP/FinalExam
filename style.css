@@ -384,3 +384,11 @@ a
     padding-bottom: 5px;
     color: #aa6c39;
 }
+#goal .goal-text .contents .content p
+{
+    color: black;
+}
+#goal .goal-text .contents .content i
+{
+    color: goldenrod;
+}
