@@ -8,3 +8,8 @@ window.onscroll = () =>
 {
     searchForm.classList.remove('active');
 }
+$(document).ready(function()
+{
+    //owl Carousel
+    
+})
