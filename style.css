@@ -412,6 +412,12 @@ a
 {
     background: #0A2940;
 }
+.portfolio h1
+{
+    color: #95A2BB;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
 .portfolio h4
 {
     color: #95A2BB;
