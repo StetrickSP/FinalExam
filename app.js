@@ -14,6 +14,7 @@ $(document).ready(function()
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
         margin: 5,
+        mavigation: true,
         nav: true,
         loop: true,
         autoplay: true,
@@ -21,13 +22,16 @@ $(document).ready(function()
         autoHoverPause: true,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav: false
             },
             600:{  
-                items:2
+                items:2,
+                nav: false
             },
             1000:{
-                items:3
+                items:3,
+                nav: false
             }
         }   
     });
