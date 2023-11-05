@@ -19,7 +19,7 @@ a
 }
 .text-secondary
 {
-    color: green;
+    color: gold;
 }
 .text-center
 {
@@ -177,7 +177,7 @@ a
     text-decoration: none;
     display: inline-block;
     padding: 0 25px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: gold;
     transition: all 0.5s ease;
 }
@@ -383,4 +383,50 @@ a
     font-size: 16px;
     padding-bottom: 5px;
     color: #aa6c39;
+}
+#goal .goal-text .contents .content p
+{
+    color: black;
+}
+#goal .goal-text .contents .content i
+{
+    color: goldenrod;
+}
+
+/* Portfolio Section Styling */
+#portfolio 
+{
+    background: #0A2940;
+}
+.portfolio h4
+{
+    color: #95A2BB;
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.portfolio h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #95A2BB;
+    margin-bottom: 20px;
+}
+.portfolio h2 span
+{
+    font-weight: 500px;
+}
+.portfolio p
+{
+    color: #95A2BB;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+.owl-carousel .item img
+{
+    display: block;
+    width: 700px;
+    height: 300px;
+    border: 2px solid #95A2BB;
+    object-fit: cover;
 }
