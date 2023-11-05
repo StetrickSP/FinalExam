@@ -1,4 +1,9 @@
 /* dang_ky.css */
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -10,10 +15,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6)
+    ,rgba(0,0,0,0.6))
+    ,url('/images/background.jpg') no-repeat center center/cover;
 }
 
 .login {
-    background-color: #fff;
+    background-color: #FFFFF4;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -50,7 +58,8 @@ label, input {
 }
 
 input {
-    padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
