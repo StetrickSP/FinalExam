@@ -151,6 +151,16 @@ a
     position: absolute; /*Change into fixed afterwards*/
 }
 
+.navbar-bottom.sticky
+{
+    padding: 15px 95px;
+    background: white;
+    border-bottom: 1px solid black;
+    color: black;
+    top: 0;
+    z-index: 999;
+}
+
 .showcase .navbar-bottom .brand-left
 {
     color: gold;
@@ -159,6 +169,10 @@ a
     margin-bottom: 10px;
     text-decoration: none;
     transition: all 0.5s ease;
+}
+.showcase .navbar-bottom.sticky .brand-left
+{
+    color: black;
 }
 .showcase .navbar-bottom .brand-left:hover
 {
