@@ -1,8 +1,13 @@
+body{
+    background-color: gray;
+}
 .mc{
     position: relative;
     background: black;
     width: 100%;
     padding: 1rem;
+    border-radius: 10px;
+    
 }
 .hw{
     display: flex;
@@ -40,7 +45,7 @@
 .sb i:hover{
     transform: scale(1.2);
 }
-.ht.span{
+h1{
     color: goldenrod;
 }
 h2{
@@ -48,4 +53,21 @@ h2{
 }
 i{
     color: gold;
+}
+.cc{
+    background-color: black;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.cw{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+span{
+    color: gold;
+}
+.mt{
+    padding-bottom: 10px;
+    font-size: 35px;
 }
