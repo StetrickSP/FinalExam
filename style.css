@@ -424,7 +424,8 @@ a
 }
 .owl-carousel .item img
 {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 700px;
     height: 300px;
     border: 1px solid #95A2BB;
@@ -450,6 +451,7 @@ a
     width: 35px;
     border-radius: 14px;
     transition: all 0.8s ease;
+    transform: scale();
 }
 .owl-dot.active,
 .owl-dot:hover

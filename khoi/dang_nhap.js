@@ -8,6 +8,7 @@ function check(){
 
     if(userName.value == storedName && userPw.value == storedPw){
         alert('Bạn đã được đăng nhập.');
+        window.location.href = "../index.html";
     }else{
         alert('Lỗi đăng nhập.');
     }

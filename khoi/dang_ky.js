@@ -31,5 +31,6 @@ function store(){
         localStorage.setItem('name', name.value);
         localStorage.setItem('pw', pw.value);
         alert('Tài khoản của bạn đã được tạo ra!');
+        window.location.href = "dang_nhap.html";
     }
 }
