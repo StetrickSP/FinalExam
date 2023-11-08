@@ -41,27 +41,34 @@
     </div>
   <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_cff27"></div>
-  <!-- <div class="tradingview-widget-copyright"><a href="https://vn.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Theo dõi mọi thị trường trên TradingView</span></a></div> -->
+  <div id="tradingview_ba5df" style="height:calc(100% - 32px);width:100%"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
   <script type="text/javascript">
   new TradingView.widget(
   {
   "autosize": true,
-  "symbol": "HOSE:VNINDEX",
-  "timezone": "Asia/Ho_Chi_Minh",
+  "symbol": "BINANCE:BTCUSD",
+  "timezone": "Etc/UTC",
   "theme": "dark",
   "style": "1",
-  "locale": "vi_VN",
-  "enable_publishing": false,
+  "locale": "en",
+  "enable_publishing": true,
   "withdateranges": true,
   "range": "YTD",
   "hide_side_toolbar": false,
   "allow_symbol_change": true,
+  "save_image": false,
+  "watchlist": [
+    "BINANCE:ETHUSDT",
+    "BINANCE:BNBUSDT"
+  ],
   "details": true,
   "hotlist": true,
   "calendar": true,
-  "container_id": "tradingview_cff27"
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650",
+  "container_id": "tradingview_ba5df"
 }
   );
   </script>
