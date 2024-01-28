@@ -38,7 +38,8 @@ a.brand-left {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    color: #333;
+    font-size: 25px;
+    color: gold;
 }
 
 a.brand-left img {

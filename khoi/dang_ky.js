@@ -6,6 +6,7 @@ function store(){
     var upperCaseLetters = /[A-Z]/g;
     var numbers = /[0-9]/g;
 
+    ///Check Conditions
     if(name.value.length == 0){
         alert('Vui lòng nhập Email hoặc Tên');
 
@@ -27,10 +28,17 @@ function store(){
     }else if(!pw.value.match(lowerCaseLetters)){
         alert('Vui lòng thêm 1 chữ in thường vào mật khẩu');
 
-    }else{
-        localStorage.setItem('name', name.value);
-        localStorage.setItem('pw', pw.value);
-        alert('Tài khoản của bạn đã được tạo ra!');
-        window.location.href = "dang_nhap.html";
+    }else{  ///Dang ky Firebase Authenthication
+        // localStorage.setItem('name', name.value);
+        // localStorage.setItem('pw', pw.value);
+        // alert('Tài khoản của bạn đã được tạo ra!');
+        createUserWithEmailAndPassword(getAuth(), email, password)
+         .then(function (userCredential)
+        {
+            var user = userCredential.user;
+            alert('Dang ky thanh cong' + user.email);
+            window.location.href = "dang_nhap.html";
+        });
+        
     }
 }
