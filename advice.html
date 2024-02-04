@@ -40,15 +40,34 @@
         </ul>
         </div>
     </div>
-    <!--------------------------------------- Showcase Bar -------------------------------------->
-    <div class="container">  <!--------   Class: Container   ---------->
+    <!--------------------------------------- Showcase Bar ------------------------------------!-->
+    <div class="container">  <!--------   Class: Container   ------------->
         <div class="advices">
-            <h2><img src="/images/brand.png">Tu van Tai chinh</h2>
+            <h2><img src="/images/brand.png">Danh sách việc cần làm <img src="/images/icon-todoList.png"></h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Nhap Task o day">
-                <button>Them</button>
+                <button onclick="addTask()">Thêm</button>
             </div>
+            <ul id="list-container">
+                <!--
+                <li> tags will be added here via Javascript
+                <li class="checked"></li>                    ///Checked 
+                <li></li>                                    ///Unchecked
+                -->
+            </ul>
         </div>
-    </div>
+
+        <div class="advice-list">
+            <h2><img src="/images/brand.png">Các lời khuyên tài chính<i class="bx bx-dollar-circle bx-xl"></i></h2>
+            <!-- <div class="row">
+                <h1>Financial Tips  
+            </div> -->
+            <ul id="list-container">
+                <li><a href="#">Cách làm giàu Online</a></li>
+                <li><a href="#">Cách tiết kiệm chi tiêu</a></li>
+            </ul>
+        </div>
+    </div>   <!---------------   Class: Container   ---------------------->
+    <script src="advice.js"></script>
 </body>
 </html>

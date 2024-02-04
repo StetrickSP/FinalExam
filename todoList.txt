@@ -4,7 +4,13 @@ Priority:
 - Add Responsive
 - Children sites:
   +Footer
+
   +Blog
+  +(Remake) Portfolio (Danh Muc)
   +Our Team (Doi Ngu)
   +Financial Courses
-  +Financial Advice
+  +Financial Advice     /////////    Dang Lam     //////////
+
+---------------------------------------------------------
+Colors:
+#aa6b39 (Brownish)
