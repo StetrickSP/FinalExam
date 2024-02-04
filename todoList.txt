@@ -4,7 +4,6 @@ Priority:
 - Add Responsive
 - Children sites:
   +Footer
-
   +Blog
   +(Remake) Portfolio (Danh Muc)
   +Our Team (Doi Ngu)
