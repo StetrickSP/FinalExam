@@ -8,7 +8,7 @@ Priority:
   +(Remake) Portfolio (Danh Muc)
   +Our Team (Doi Ngu)
   +Financial Courses
-  +Financial Advice     /////////    Dang Lam     //////////
+  +Financial Advice     /////////    Progress: Kind of Finished     //////////
 
 ---------------------------------------------------------
 Colors:
