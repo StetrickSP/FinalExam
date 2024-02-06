@@ -1,14 +1,14 @@
 Priority: 
-- Add onAuthStateChange() | Firebase   /// In Progress ///
+- Add onAuthStateChange() | Firebase   
 ---------------------------------------------------------
 - Add Responsive
 - Children sites:
   +Footer
-  +Blog
-  +(Remake) Portfolio (Danh Muc)
-  +Our Team (Doi Ngu)
+  +Blog                        
+  +Portfolio (Danh Muc)        ///////////////   In Progress   /////////////
+  +Our Team (Doi Ngu)          /////////    !Finished!  //////////
   +Financial Courses
-  +Financial Advice     /////////    Progress: Kind of Finished     //////////
+  +Financial Advice            /////////    Progress: Kind of Finished     //////////
 
 ---------------------------------------------------------
 Colors:
