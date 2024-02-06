@@ -6,6 +6,11 @@ Priority:
   +Footer
   +Blog                        
   +Portfolio (Danh Muc)        ///////////////   In Progress   /////////////
+   {
+    .Gioi thieu: Quy Dau tu gia tri VTVF
+    .Tai sao nen dau tu vao VTVF: Neu ra cac diem manh
+    .Gioi thieu: Doi ngu quan ly quy 
+   }
   +Our Team (Doi Ngu)          /////////    !Finished!  //////////
   +Financial Courses
   +Financial Advice            /////////    Progress: Kind of Finished     //////////
