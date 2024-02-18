@@ -483,3 +483,78 @@ a
 {
     background: gold !important;
 }
+
+/* Open-ended Fund Management Teams Section  */
+#teams h3
+{
+    color: #0A2940;
+    font-size: 14px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+#teams h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0A2940;
+    margin-bottom: 20px; 
+}
+#teams h2 span
+{
+    font-weight: 500;
+}
+#teams p
+{
+    color: #0A2940;
+    line-height: 1.6;
+    margin-bottom: 100px;
+}
+#teams .wrapper .card
+{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    background-color: gold;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 200px;
+    z-index: 1;
+}
+#teams .wrapper .card:hover
+{
+    background: gold;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#teams .wrapper .card-items
+{
+    display: flex;
+    margin-top: -50px;
+    justify-content: space-evenly;  /* Every .card is spaced evenly in row*/
+    overflow: hidden;
+}
+#teams .wrapper .card .card-header
+{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 30px auto;
+    transform: translateY(40px);
+}
+#teams .wrapper .card .card-header img
+{
+    width: 100%;
+    height: auto;
+}
+#teams .wrapper .card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 200px;
+}
