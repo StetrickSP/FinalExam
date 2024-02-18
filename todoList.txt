@@ -11,9 +11,9 @@ Priority:
     .Tai sao nen dau tu vao VTVF: Neu ra cac diem manh
     .Gioi thieu: Doi ngu quan ly quy 
    }
-  +Our Team (Doi Ngu)          /////////    !Finished!  //////////
+  +Our Team (Doi Ngu)          /////////   !Finished!  //////////
   +Financial Courses
-  +Financial Advice            /////////    Progress: Kind of Finished     //////////
+  +Financial Advice            ///////   Progress: Kind of Finished! *Add documentary children sites  ////////
 
 ---------------------------------------------------------
 Colors:

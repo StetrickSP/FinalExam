@@ -9,8 +9,22 @@ window.onscroll = () =>
     searchForm.classList.remove('active');
 }
 
+//Slideshow bar: Portfolio Section
 $(document).ready(function()
 {
+    // $window.scroll(function()
+    // {
+    //     //Navbar-bottom scrolling
+    //     if (this.scrollY > 5)
+    //     {
+    //         $('.navbar-bottom').addClass('sticky');
+    //     }
+    //     else
+    //     {
+    //         $('.navbar-bottom').removeClass('sticky');
+    //     }
+    // });
+
     //Owl Carousel
     $('.owl-carousel').owlCarousel({
         margin: 5,

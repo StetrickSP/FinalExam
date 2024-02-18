@@ -186,6 +186,10 @@ a
     font-size: 14px;
     font-weight: 500; 
 }
+.showcase .navbar-bottom.sticky .menu-right li:last-child
+{
+    display: none;
+}
 .showcase .navbar-bottom .menu-right a
 {
     text-decoration: none;
