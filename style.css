@@ -485,6 +485,15 @@ a
 }
 
 /* Open-ended Fund Management Teams Section  */
+#teams .first-block
+{
+    margin: -50px 0 75px 50px;  /* margin: top right bottom left */
+    font-weight: 10000;
+}
+#teams .second-block
+{
+    margin: 50px;
+}
 #teams h3
 {
     color: #0A2940;
@@ -514,12 +523,13 @@ a
     margin: 20px;
     display:flex;
     flex-direction: column;
-    background-color: gold;
+    background-color: goldenrod;
     border-radius: 10px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
     overflow: hidden;
     width: 200px;
     z-index: 1;
+    transition: all 0.5s ease;
 }
 #teams .wrapper .card:hover
 {
@@ -547,7 +557,7 @@ a
 #teams .wrapper .card .card-header img
 {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 #teams .wrapper .card-body
 {
@@ -557,4 +567,38 @@ a
     align-items: center;
     padding: 20px;
     min-height: 200px;
+}
+#teams .wrapper .card h3
+{
+    font-size: 12px;
+    color: black;
+    padding-top: 30px;
+}
+#teams .wrapper .card .card-body h4
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #aa6b39;
+    margin-top: 0px;
+}
+#teams .wrapper .card .card-body ul
+{
+    display: flex;
+    list-style: none;
+    padding-top: 50px;
+}
+#teams .wrapper .card .card-body ul li i
+{
+    padding: 5px;
+    margin: 0 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: gold;
+    color: black;
+    /* transition: all 0.3s ease; */
+}
+#teams .wrapper .card .card-body ul li i:hover
+{
+    background: goldenrod;
+    color: whitesmoke;
 }
