@@ -15,6 +15,18 @@ Priority:
   +Financial Courses
   +Financial Advice            ///////   Progress: Kind of Finished! *Add documentary children sites  ////////
 
+------------------------ Main Points Of Presentation --------------------------------
+Introduction  //vvv  
+Company Overview  //vvv S2: Product Introduction  (Gioi Thieu San Pham)
+The Problem  //  S2
+Product and Solution//   S2
+Promise of Value or Benefits// S3: Value and Benefits (Loi Ich San Pham dem lai)
+Product Positioning   //    S3
+Use Cases and Social Proof //   S3
+Inspiration  //   S4: Call for Change and Improvement (Loi keu goi cho mot tuong lai phat trien hon)
+Call-to-Action  // S4
+Conclusion  // S4
+Thanks for Listening and Watching // S4
 ---------------------------------------------------------
 Colors:
 #aa6b39 (Brownish)
