@@ -64,7 +64,7 @@
            .then(function (userCredential)
            {
             var user = userCredential.user;
-            alert("Đã tạo tài khoản" + user.email);
+            alert("Đã tạo tài khoản: " + user.email);
             window.location.href = "dang_nhap.html"; //Chuyen huong khi da tao tk 
            })
            .catch(function (error)
