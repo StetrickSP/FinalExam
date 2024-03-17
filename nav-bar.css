@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
 .showcase
 {
     width: 100%;
@@ -15,7 +22,7 @@
     align-items: center;
     background-color: gold;
     /* position: sticky;  */   /*Remove comment afterwards*/
-     top: 0;
+    top: 0;
     left: 0;
 }
 

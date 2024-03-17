@@ -21,13 +21,6 @@
             <input type="password"
                    id= "signup-pw"
                    placeholder="Password" required>
-    
-            <ul class="helper-text">
-                <li class="length">Phải dài hơn 8 chữ.</li>
-                <li class="lowercase">Phải có ít nhất 1 chữ in thường.</li>
-                <li class="uppercase">Phải có ít nhất 1 chữ in hoa.</li>
-                <!-- <li class="special">Phải có 1 ký hiệu đặc biệt.</li> -->
-            </ul>
             <input id="rgstr_btn" type="submit" value="Đăng ký" onclick="store()">
             <!-- <input id="rgstr_btn" type="submit" value="Login" onclick="window.location.href = 'dang_nhap.html'"> -->
             <h3>Đã có tài khoản rồi? <a href="dang_nhap.html">Đăng nhập</a></h3>
@@ -71,7 +64,7 @@
            .then(function (userCredential)
            {
             var user = userCredential.user;
-            alert("Đã tạo tài khoản: " + user.email);
+            alert("Đã tạo tài khoản" + user.email);
             window.location.href = "dang_nhap.html"; //Chuyen huong khi da tao tk 
            })
            .catch(function (error)

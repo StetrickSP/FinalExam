@@ -484,7 +484,7 @@ a
     background: gold !important;
 }
 
-/* Open-ended Fund Management Teams Section  */
+/*** Open-ended Fund Management Teams Section  ***/
 #teams .first-block
 {
     margin: -50px 0 75px 50px;  /* margin: top right bottom left */
@@ -576,9 +576,9 @@ a
 }
 #teams .wrapper .card .card-body h4
 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    color: #aa6b39;
+    color: black;
     margin-top: 0px;
 }
 #teams .wrapper .card .card-body ul
@@ -601,4 +601,70 @@ a
 {
     background: goldenrod;
     color: whitesmoke;
+}  /* End of FIRST BLOCK */
+#teams .blockade .block-items
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+#teams .blockade .block 
+{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(218,165,32,0.1);
+    outline-style: auto;
+    outline-color: rgba(0,0,0,0);
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+    width: 250px;   
+    height: 250px;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+#teams .blockade .block:hover
+{
+    background-color: rgba(255,215,0,0.6);
+    box-shadow: 0 4px 25px rgba(0,0,0,0.6);
+    outline-color: rgba(0,0,0,1);
+    transform: scale(1.05);
+}
+#teams .blockade .block .block-header
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#teams .blockade .block .block-header i
+{
+    font-size: 80px;
+    color: gold;
+}
+#teams .blockade .block-body
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 200px;
+}
+#teams .blockade .block-body p
+{
+    font-size: 25px;
+    color: black;  
+}
+
+/* Footer Section Styling */
+.footer-bottom
+{
+    background: #0A2940;
+    color: gold;
+}
+.footer-bottom p
+{
+    font-size: 14p;
+    font-weight: 600;
 }

@@ -6,7 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/************************   Class: Container   **********************/
+/************************!   Class: Container   **********************/
 .container
 {
     width: 100%;
@@ -39,7 +39,7 @@
     width: 50px;
 }                          /***************   Class: advices   *****************/
 
-.advice-list               /*************   Class: advice-list / It is the list next to Task list   *************/
+.advice-list               /*************!   Class: advice-list / It is the list next to Task list   *************/
 {
     display: inline-table;
     position: absolute;
@@ -62,9 +62,23 @@
     margin-left: 10px;
     height: 50px;
     width: 50px;
-}                         /***************   Class: advice-list   ***************/
+}                         /***************   Class: advice-list   !***************/
+#advice-container li
+{
+    list-style: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#advice-container a
+{
+    text-decoration: none;
+}
+#advice-container a:hover
+{
+    text-decoration: underline;
+}
 
-.row               /****************** Class: Row / It is the input Task box & the Add button  ******************/
+.row               /******************! Class: Row / It is the input Task box & the Add button  ******************/
 {
     display: flex;
     align-items: center; 
@@ -73,7 +87,7 @@
     border-radius: 30px;   /*Remove the sharp corners*/
     padding-left: 20px;
     margin-bottom: 25px;
-}                  /****************** Class: Row *********************/
+}                  /****************** Class: Row !*********************/
 
 input
 {
@@ -151,4 +165,4 @@ button:hover
     background: #edeef0;
 }
 
-/************************   Class: Container   **********************/
+/************************   Class: Container   !**********************/
